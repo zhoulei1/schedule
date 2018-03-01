@@ -3,7 +3,7 @@ package zl.example;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages="zl.example.config")
 public class ScheduleApplication {
 
 	public static void main(String[] args) {
